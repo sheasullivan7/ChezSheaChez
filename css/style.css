@@ -1,0 +1,22 @@
+body {
+  background-color: #fafafa;
+  font-family: "Georgia", serif;
+  margin: 20px;
+  padding: 20px;
+}
+
+nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #444;
+}
+
+nav a:hover {
+  color: #b35c1e;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+CSS Stylesheet 
