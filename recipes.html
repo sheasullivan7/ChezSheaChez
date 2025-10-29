@@ -6,15 +6,23 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="recipes.html">Recipes</a>
-    <a href="blog.html">Blog</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <main>
+  <header class="site-header" role="banner">
+    <div class="header-brand">
+      <a class="site-title" href="index.html">Chez Shea Chez</a>
+    </div>
+
+    <nav class="header-nav" role="navigation" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="recipes.html" class="active" aria-current="page">Recipes</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
     <h1>Recipes</h1>
     <p>Welcome to the recipes page — here you’ll find my favorite dishes!</p>
   </main>
