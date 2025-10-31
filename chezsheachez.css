@@ -1,0 +1,83 @@
+body {
+  background-color: #fafafa;
+  font-family: "Georgia", serif;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Basic page styles */
+nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #444;
+}
+
+nav a:hover {
+  color: #b35c1e;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* Header / navigation styles */
+.site-header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.site-title {
+  font-family: "Georgia", serif;
+  color: #b35c1e;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.header-nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #444;
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+
+.header-nav a:hover {
+  color: #b35c1e;
+  background: rgba(179,92,30,0.05);
+}
+
+.header-nav a.active,
+.header-nav a[aria-current="page"] {
+  color: #b35c1e;
+  font-weight: 600;
+}
+
+/* Accessible skip link */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid #b35c1e;
+  z-index: 1001;
+}
+
+/* Make header nav style take precedence when using .header-nav */
+.header-nav a { color: #444; }
