@@ -95,3 +95,12 @@ footer {
 .contact-info{
   color:#eee;
 }
+
+.report-letter {
+  font-size: 40px;
+  padding-right: 4px;
+}
+
+.report-word {
+  font-size: 25px;
+}
