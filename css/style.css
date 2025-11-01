@@ -1,9 +1,17 @@
 body {
   background-color: #fafafa;
   font-family: "Georgia", serif;
-  margin: 20px;
-  padding: 20px;
+  margin: 0px;
+  padding: 0px;
+  background: #b35c1e;
+  color:#eee;
 }
+
+main {
+  margin: 40px;
+  padding: 0px;
+}
+
 
 /* Basic page styles */
 nav a {
@@ -16,9 +24,6 @@ nav a:hover {
   color: #b35c1e;
 }
 
-h1, h2 {
-  color: #333;
-}
 
 /* Header / navigation styles */
 .site-header {
@@ -26,7 +31,7 @@ h1, h2 {
   top: 0;
   background: #fff;
   border-bottom: 1px solid #eee;
-  padding: 10px 20px;
+  padding: 30px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,7 +41,7 @@ h1, h2 {
 .site-title {
   font-family: "Georgia", serif;
   color: #b35c1e;
-  font-size: 1.25rem;
+  font-size: 2rem;
   text-decoration: none;
 }
 
@@ -81,3 +86,8 @@ h1, h2 {
 
 /* Make header nav style take precedence when using .header-nav */
 .header-nav a { color: #444; }
+
+footer {
+  margin: 20px;
+  padding: 20px;
+}
